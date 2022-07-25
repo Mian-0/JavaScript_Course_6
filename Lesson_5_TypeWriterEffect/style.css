@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    display: flex;
+    color: white;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./pexels-polina-sirotina-1217236.jpg');
+    background-size: cover;
+}
+
+.typing {
+    position: relative;
+    margin-left: 10px;
+}
+
+.typing::after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    height: 3%;
+    border: 1px solid white;
+    animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
