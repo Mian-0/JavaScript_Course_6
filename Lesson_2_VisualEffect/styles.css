@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Image-1 {
+    width: 100%;
+    height: auto;
+}
+
+.img-2 {
+    width: 100%;
+    height: auto;
+}
+
+
+.intro-title {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.intro-content {
+    display: flex;
+    padding: 0 60px;
+    padding-bottom: 200px;
+}
+.intro-text {
+    margin: auto;
+}
+.paragraph {
+    padding-top: 10px;
+    font-size: 13px;
+    width: 70%;
+    line-height: 25px;
+}
+
+.intro-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+
+.intro-appear {
+    opacity: 1;
+    transform: translate(0px);
+}
